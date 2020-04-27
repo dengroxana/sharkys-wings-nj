@@ -1,56 +1,58 @@
-
-
 .hoursBg {
-    background-image: url(../images/wings_hero.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 442px;
-   
-    
+  background-image: url(../images/wings_hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 442px;
 }
-.info {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-text-align: center;
-padding-top: 88px;
 
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+  padding-top: 88px;
 }
-.hours {
-    width: 346px;
-    height: 291px;
-    border-radius: 12px;
-    background-color: var(--white-70);
-  
-}
-.hours h2 {
-    font-family: Oswald;
+
+.info h2 {
+  font-family: Oswald;
   font-size: 36px;
-padding-top: 26px;
+  padding-top: 26px;
   color: var(--black);
 }
 
-.hours p {
-    font-family: Karla;
+.info p {
+  font-family: Karla;
   font-size: 24px;
+}
+
+.hours {
+  width: 346px;
+  height: 291px;
+  border-radius: 12px;
+  background-color: var(--white-70);
 }
 
 .address {
-    width: 346px;
-    height: 291px;
-    border-radius: 12px;
-    background-color: var(--white-70);
-    
+  width: 346px;
+  height: 291px;
+  border-radius: 12px;
+  background-color: var(--white-70);
 }
 
-.address h2 {
-    font-family: Oswald;
-  font-size: 36px;
-padding-top: 26px;
-  color: var(--black);
-}
+@media only screen and (max-width: 415px) {
+    .info h2 {
+        font-size: 20px;
+    }
 
-.address p {
-    font-family: Karla;
-  font-size: 24px;
+    .info p {
+        font-size: 13px;
+    }
+    .hours {
+        width: 151px;
+        height: 216px;
+    }
+    .address {
+        width: 151px;
+        height: 216px;
+    }
 }
