@@ -6,7 +6,7 @@ function Header() {
     return (
 <div>
 <NavBar/>
-<Covid/>
+{/* <Covid/> */}
 </div>
 
     )
