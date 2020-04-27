@@ -11,6 +11,8 @@ function Specials() {
   return (
     <div id="specials">
       <h2>Specials</h2>
+
+
       <div className="dailySpecialsImgs">
         <img src={MondayImg} alt="Monday Specials" className='specialsImg' />
         <img src={TuesdayImg} alt="Monday Specials" className='specialsImg' />

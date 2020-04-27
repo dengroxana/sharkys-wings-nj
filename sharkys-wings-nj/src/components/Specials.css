@@ -27,3 +27,24 @@
   background-color: var(--white-70);
   margin: 2%;
 }
+
+@media only screen and (max-width: 415px){
+  .dailySpecialsImgs{
+    width: 375px;
+    height: 274px;
+    flex-direction: column;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;  
+    scroll-behavior: smooth;
+  }
+
+  .specialsImg {
+    width: 300px;
+    flex-shrink: 0;
+    height: 95%;
+    scroll-snap-align: start;
+  }
+
+
+}
