@@ -41,9 +41,9 @@
  color: var(--terracota);
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px){
+@media only screen and (max-device-width: 450px){
   .text-banner{
-    margin-top:-30%;
+    margin-top:-80%;
     text-align: center;
     font-size: 38px;
   }
@@ -51,5 +51,11 @@
     width:150px;
     height:65px;
     font-size:16px;
+  }
+}
+@media only screen and (max-device-width: 1024px){
+  .text-banner{
+    margin-top:-70%;
+    text-align: center;
   }
 }
