@@ -1,14 +1,19 @@
 #nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--dark-blue-grey);
-    width: 100%;
-    height: 12%;
-    text-align: center;
     position: fixed;
 }
-
+.container{
+  display:none;
+}
+.default{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-blue-grey);
+  width: 100%;
+  height: 12%;
+  text-align: center;
+}
 #nav h2 {
 font-family: 'Oswald', sans-serif;
 color: var(--light-grey-blue);
@@ -21,10 +26,69 @@ color: var(--light-grey-blue);
 .sharkyLogo {
     margin-top: 10%;
     margin-bottom: 10%;
-    height:30%;
-    width:30%;
+    height:40%;
+    width:40%;
 }
+/* CSS FOR MOBILE HAMBURGER MENU FROM W3SCHOOLS, EDITED AND ADAPTED FOR REACT */
 
+@media only screen and (max-device-width: 415px){
+  .default{
+    display:none;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:10%;
+    position:fixed;
+    cursor: pointer;
+    background-color: var(--dark-blue-grey);
+  }
+  .change {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height:10%;
+    position:fixed;
+    cursor: pointer;
+    background-color: var(--dark-blue-grey);
+  }
+  .sharkyLogo {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height:50%;
+    width:50%;
+}
+  .ham{
+    margin-bottom:30px;
+    background-color: var(--dark-blue-grey);
+    height:5%;
+  }
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #FFFF;
+    margin: 6px 4px;
+    transition: 0.4s;
+  }
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  .change .bar2 {opacity: 0;}
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  #links{
+    display:flex;
+    flex-direction: column;
+    margin-top:15%;
+    position: fixed;
+    background-color: var(--dark-blue-grey);
+  }
+}
 /* #covid {
     background-color: var(--terracota);
     color: white;

@@ -1,0 +1,9 @@
+.dailySpecials{
+  background-color: var(--dark-blue-grey);
+}
+
+.dailySpecials h2{
+  color: var(--light-grey-blue);
+  font-family: Oswald, sans-serif;
+  font-size: 36px;
+}
