@@ -3,6 +3,8 @@ import "./HoursAddress.css";
 
 function HoursAddress() {
   return (
+    <>
+    <div id="hours"></div>
     <div className="hoursBg">
       <div className="info">
         <div className="hours">
@@ -16,7 +18,8 @@ function HoursAddress() {
           <p>(973)-917-4466</p>
         </div>
       </div>
-    </div>
+      </div>
+      </>
   );
 }
 export default HoursAddress;
