@@ -12,12 +12,12 @@ function Specials() {
     <div id="specials">
       <h2>Specials</h2>
       <div className="dailySpecialsImgs">
-        <img src={MondayImg} alt="Monday Specials" className='specialsImg' />
-        <img src={TuesdayImg} alt="Monday Specials" className='specialsImg' />
-        <img src={WednesdayImg} alt="Monday Specials" className='specialsImg' />
-        <img src={ThursdayImg} alt="Monday Specials" className='specialsImg' />
-        <img src={SaturdayImg} alt="Monday Specials" className='specialsImg' />
-        <img src={SundayImg} alt="Monday Specials" className='specialsImg' />
+        <img src={MondayImg} alt="Monday Specials" className='specialsImg' id="slide-1" />
+        <img src={TuesdayImg} alt="Monday Specials" className='specialsImg' id="slide-2" />
+        <img src={WednesdayImg} alt="Monday Specials" className='specialsImg' id="slide-3" />
+        <img src={ThursdayImg} alt="Monday Specials" className='specialsImg' id="slide-4" />
+        <img src={SaturdayImg} alt="Monday Specials" className='specialsImg' id="slide-5" />
+        <img src={SundayImg} alt="Monday Specials" className='specialsImg' id="slide-6" />
       </div>
     </div>
 
@@ -25,3 +25,31 @@ function Specials() {
 }
 
 export default Specials
+
+
+// TRIED WITH DIVS
+// +++++++++++++
+
+  //   <div id="specials">
+  //   <h2>Specials</h2>
+  //   <div className="dailySpecialsImgs">
+  //     <div className='specialsImgTEST'>
+  //       <img src={MondayImg} alt="Monday Specials" className='specialsImg' id="slide-1" />
+  //     </div>
+  //     <div className='specialsImgTEST'>
+  //       <img src={TuesdayImg} alt="Monday Specials" className='specialsImg' id="slide-2" />
+  //     </div>
+  //     <div className='specialsImgTEST'>
+  //       <img src={WednesdayImg} alt="Monday Specials" className='specialsImg' id="slide-3" />
+  //     </div>
+  //     <div className='specialsImgTEST'>
+  //       <img src={ThursdayImg} alt="Monday Specials" className='specialsImg' id="slide-4" />
+  //     </div>
+  //     <div className='specialsImgTEST'>
+  //       <img src={SaturdayImg} alt="Monday Specials" className='specialsImg' id="slide-5" />
+  //     </div>
+  //     <div className='specialsImgTEST'>
+  //       <img src={SundayImg} alt="Monday Specials" className='specialsImg' id="slide-6" />
+  //     </div>
+  //   </div>
+  // </div>
