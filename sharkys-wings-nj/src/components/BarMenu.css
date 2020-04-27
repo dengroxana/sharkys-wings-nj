@@ -1,6 +1,6 @@
 .buttonMenu {
     display:flex;
-    
+    justify-content: space-evenly;
 }
 .buttonMenu button {
     margin: 20px;
