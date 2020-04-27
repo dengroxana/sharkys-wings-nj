@@ -1,0 +1,40 @@
+#HappyHour {
+  display: flex;
+}
+
+/* ===== HAPPY DAYS TIMES ====== */
+
+#hhDaysDiv {
+  background-color: var(--light-grey-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+}
+
+.hhDatesTimes h2 {
+  margin: 0;
+  font-family: Oswald, sans-serif;
+  font-size: 36px;
+  color: var(--dark-grey-blue);
+  
+}
+
+.hhDatesTimes p{
+  margin: 0;
+  font-family: Karla, sans-serif;
+  color: var(--dark-grey-blue);
+  font-size: 20px;
+}
+
+/* ===== HAPPY HOUR MENU ====== */
+#hhMenuDiv {
+  margin: 0;
+  text-align: center;
+}
+
+#hhMenuDiv p {
+  margin: 0;
+  font-family: Karla, sans-serif;
+  font-size: 18px;
+}
