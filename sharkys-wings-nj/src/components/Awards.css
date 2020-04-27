@@ -1,0 +1,51 @@
+.awards {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--pale-grey);
+    margin:0;
+}
+
+.cbs img {
+    width:93px;
+    height:60px;
+}
+.awards h2 {
+  font-size: 24px;
+  font-family: Oswald;
+  color: var(--dark-blue-grey);
+}
+
+.starLedger img {
+    width: 294px;
+    height: 52px;
+}
+
+.nj img {
+  width: 123px;
+  height: 77px;
+}
+
+@media only screen and (max-width: 415px){
+
+  .starLedger img {
+    width: 92px;
+    height: 13px;
+  }
+
+  .cbs img {
+    width: 47px;
+    height: 30px;
+  }
+
+  .nj img {
+    width: 63px;
+    height: 39px;
+  }
+
+  .awards h2 {
+    font-size: 13px;
+  }
+
+}
