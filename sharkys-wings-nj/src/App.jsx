@@ -7,6 +7,7 @@ import HoursAddress from "./components/HoursAddress"
 import HappyHour from "./components/HappyHour"
 import BarMenu from "./components/BarMenu"
 import Footer from "./components/Footer"
+import Specials from "./components/Specials"
 
 
 import './App.css';
@@ -14,13 +15,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-<Header/>
-<Banner/>
-<Awards/>
-<HoursAddress/>
-<HappyHour />
-<BarMenu/>
-<Footer/>
+      <Header />
+      <Banner />
+      <Awards />
+      <HoursAddress />
+      <HappyHour />
+      <Specials />
+      <BarMenu />
+      <Footer />
     </div>
   );
 }

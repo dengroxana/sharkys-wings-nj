@@ -6,16 +6,16 @@ import "./Awards.css"
 
 function Awards() {
   return (
-    <div class="awards">
-      <div class="cbs">
+    <div className="awards">
+      <div className="cbs">
         <img src={cbs} alt="cbs" />
         <h2>Rated Best Sports Bar</h2>
       </div>
-      <div class="starLedger">
+      <div className="starLedger">
         <img src={ledger} alt="" />
         <h2>Rated Best Wings In New Jersey</h2>
       </div>
-      <div class="nj">
+      <div className="nj">
         <img src={nj} alt="" />
         <h2>Ranked In 44 Best Wings In Jersey</h2>
       </div>
