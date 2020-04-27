@@ -1,0 +1,46 @@
+.buttonMenu {
+    display:flex;
+    
+}
+.buttonMenu button {
+    margin: 20px;
+    width: 270px;
+    height: 66px;
+    background-color:transparent;
+padding: 5px 10px 5px 10px;
+transition: background-color 0.2s ease;
+}
+
+.buttonMenu button:hover {
+    background-color: var(--terracota);
+    color: white;
+}
+.buttonMenu button:active{
+    background-color: var(--terracota);
+    color: white;
+}
+.buttonMenu button:focus{
+    background-color: var(--terracota);
+    color: white;
+}
+.buttonMenu button:target{
+    background-color: var(--terracota);
+    color: white;
+}
+.menuItems {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--terracota);
+
+}
+
+.menuList {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
