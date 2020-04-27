@@ -40,6 +40,15 @@
 }
 
 @media only screen and (max-width: 415px) {
+
+    .hoursBg {
+        background-position: center;
+        height: 249px;
+        width: auto;
+    }
+    .info {
+        padding-top: 17px;
+    }
     .info h2 {
         font-size: 20px;
     }
