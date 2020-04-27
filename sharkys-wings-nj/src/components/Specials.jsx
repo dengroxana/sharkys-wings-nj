@@ -11,13 +11,15 @@ function Specials() {
   return (
     <div id="specials">
       <h2>Specials</h2>
+
+
       <div className="dailySpecialsImgs">
-        <img src={MondayImg} alt="Monday Specials" className='specialsImg' id="slide-1" />
-        <img src={TuesdayImg} alt="Monday Specials" className='specialsImg' id="slide-2" />
-        <img src={WednesdayImg} alt="Monday Specials" className='specialsImg' id="slide-3" />
-        <img src={ThursdayImg} alt="Monday Specials" className='specialsImg' id="slide-4" />
-        <img src={SaturdayImg} alt="Monday Specials" className='specialsImg' id="slide-5" />
-        <img src={SundayImg} alt="Monday Specials" className='specialsImg' id="slide-6" />
+        <img src={MondayImg} alt="Monday Specials" className='specialsImg' />
+        <img src={TuesdayImg} alt="Monday Specials" className='specialsImg' />
+        <img src={WednesdayImg} alt="Monday Specials" className='specialsImg' />
+        <img src={ThursdayImg} alt="Monday Specials" className='specialsImg' />
+        <img src={SaturdayImg} alt="Monday Specials" className='specialsImg' />
+        <img src={SundayImg} alt="Monday Specials" className='specialsImg' />
       </div>
     </div>
 
