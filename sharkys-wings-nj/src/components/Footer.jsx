@@ -5,7 +5,7 @@ import  "./footer.css";
 
 function Footer() {
     return (
-      <div class="footer">
+      <div id="footer" class="footer">
       <h1>LOCATIONS</h1>
         <div class="locations">
             <div id="east">

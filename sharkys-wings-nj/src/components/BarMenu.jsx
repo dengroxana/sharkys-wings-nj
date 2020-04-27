@@ -55,7 +55,7 @@ class BarMenu extends Component {
     return (
       <>
         <div class="barMenu">
-          <h2>Bar Menu</h2>
+          <h2 id="menu">Bar Menu</h2>
           <div class="clickMenu">
             <p>
               <a

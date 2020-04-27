@@ -25,15 +25,18 @@ color: var(--light-grey-blue);
     width:30%;
 }
 
-#covid {
+/* #covid {
     background-color: var(--terracota);
     color: white;
     text-align: center;
-    margin:0;
+    padding-top:10%;
     height:4vh;
+    width: 100%;
 }
 
-p{
-  margin:0
-}
+.covidtext{
+  margin-top:-2.5%;
+  position: relative;
+  color:white;
+} */
 
