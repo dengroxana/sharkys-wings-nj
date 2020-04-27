@@ -10,7 +10,7 @@ function Footer() {
       <div className="locations">
         <div id="east">
           <h2>SHARKY'S EAST</h2>
-          <p> 545 Highland Avenue</p>
+          <p> 545 Highland Ave</p>
           <p>Clifton, NJ 07011</p>
           <p>(973) 473-0713</p>
           <h3>
@@ -30,7 +30,7 @@ function Footer() {
         </div>
         <div id="alpha">
           <h2>SHARKY'S ALPHA</h2>
-          <p> 431 3rd Avenue</p>
+          <p> 431 3rd Ave</p>
           <p> Alpha, NJ 08865</p>
           <p>(908) 777-3610</p>
           <h3>

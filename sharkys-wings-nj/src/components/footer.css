@@ -8,6 +8,7 @@ h1 {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     justify-items: center;
+    border-top: 1px solid black;
 }
 
 h2 {
@@ -18,7 +19,49 @@ p {
     text-align: center; 
 }
 
+#west {
+    border-right-length: 50px;
+    border-right-color: black;
+    border-right-style: solid;
+
+    border-left-length: 50px;
+    border-left-color: black;
+    border-left-style: solid;
+}
+
+#west:after {
+    content: "";
+    background: black;
+    position: absolute;
+
+}
+
 h3 {
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: space-evenly;
 }
+
+@media only screen and (max-width: 568px) {
+    #footer{
+        width: 50%;
+
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h3 {
+        
+    }
+}
+
