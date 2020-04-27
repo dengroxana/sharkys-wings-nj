@@ -27,25 +27,50 @@
   height: 77px;
 }
 
-@media only screen and (max-width: 415px){
+@media only screen and (max-width: 415px) {
 
+.awards {
+    height: 199px;
+}
+
+.cbs {
+    border-right: 1px solid black;
+    padding: 10px;
+    height: 127px;
+   
+
+    
+}
+.starLedger {
+    border-right: 1px solid black;
+    height: 127px;
+    padding: 10px;
+  
+}
   .starLedger img {
     width: 92px;
-    height: 13px;
+    height: 20px;
+    margin-bottom: 38%;
+  }
+  .nj {
+  padding: 10px;
+      height: 127px;
   }
 
   .cbs img {
     width: 47px;
     height: 30px;
+    margin-bottom: 27%;
   }
 
   .nj img {
     width: 63px;
     height: 39px;
+    margin-bottom: 20%;
   }
 
   .awards h2 {
-    font-size: 13px;
+    font-size: 16px;
   }
 
 }
