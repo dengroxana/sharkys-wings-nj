@@ -1,0 +1,56 @@
+
+
+.hoursBg {
+    background-image: url(../images/wings_hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 442px;
+   
+    
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+text-align: center;
+padding-top: 88px;
+
+}
+.hours {
+    width: 346px;
+    height: 291px;
+    border-radius: 12px;
+    background-color: var(--white-70);
+  
+}
+.hours h2 {
+    font-family: Oswald;
+  font-size: 36px;
+padding-top: 26px;
+  color: var(--black);
+}
+
+.hours p {
+    font-family: Karla;
+  font-size: 24px;
+}
+
+.address {
+    width: 346px;
+    height: 291px;
+    border-radius: 12px;
+    background-color: var(--white-70);
+    
+}
+
+.address h2 {
+    font-family: Oswald;
+  font-size: 36px;
+padding-top: 26px;
+  color: var(--black);
+}
+
+.address p {
+    font-family: Karla;
+  font-size: 24px;
+}
