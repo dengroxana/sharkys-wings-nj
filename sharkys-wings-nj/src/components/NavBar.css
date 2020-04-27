@@ -84,7 +84,7 @@ color: var(--light-grey-blue);
   #links{
     display:flex;
     flex-direction: column;
-    margin-top:15%;
+    margin-top:20%;
     position: fixed;
     background-color: var(--dark-blue-grey);
   }

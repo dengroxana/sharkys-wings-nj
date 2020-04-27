@@ -54,7 +54,7 @@ class BarMenu extends Component {
   render() {
     return (
       <>
-        <div className="barMenu">
+        <div id="menu" className="barMenu">
           <h2>Bar Menu</h2>
           <div className="clickMenu">
             <p>
