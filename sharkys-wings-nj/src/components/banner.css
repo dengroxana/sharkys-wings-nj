@@ -42,6 +42,9 @@
 }
 
 @media only screen and (max-device-width: 450px){
+  .banner{
+    -o-background-size:cover;
+  }
   .text-banner{
     margin-top:-80%;
     text-align: center;
