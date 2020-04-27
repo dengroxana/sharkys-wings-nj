@@ -3,21 +3,17 @@
     justify-content: center;
     align-items: center;
     text-align: center;
- 
+    background-color: var(--pale-grey);
+    margin: 0;
 }
 
 .cbs img {
     width:93px;
     height:60px;
 }
-.cbs h2 {
-    font-size: 24px;
-    font-family: Oswald;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
+.awards h2 {
+  font-size: 24px;
+  font-family: Oswald;
   color: var(--dark-blue-grey);
 }
 
@@ -26,29 +22,30 @@
     height: 52px;
 }
 
-.starLedger h2 {
-    font-family: Oswald;
-  font-size: 24px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: var(--dark-blue-grey);
-}
-
 .nj img {
-width: 123px;
-height: 77px;
+  width: 123px;
+  height: 77px;
 }
 
-.nj h2 {
-    font-family: Oswald;
-  font-size: 24px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: var(--dark-blue-grey);
+@media only screen and (max-width: 415px){
+
+  .starLedger img {
+    width: 92px;
+    height: 13px;
+  }
+
+  .cbs img {
+    width: 47px;
+    height: 30px;
+  }
+
+  .nj img {
+    width: 63px;
+    height: 39px;
+  }
+
+  .awards h2 {
+    font-size: 13px;
+  }
+
 }
