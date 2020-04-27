@@ -1,0 +1,24 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.locations {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center; 
+}
+
+h3 {
+    display: grid;
+    grid-template-columns: auto auto;
+}

@@ -4,8 +4,11 @@ import Header from "./components/Header";
 import Banner from "./components/banner"
 import Awards from "./components/Awards"
 import HoursAddress from "./components/HoursAddress"
-import BarMenu from "./components/BarMenu"
 import HappyHour from "./components/HappyHour"
+import BarMenu from "./components/BarMenu"
+import Footer from "./components/Footer"
+
+
 import './App.css';
 
 function App() {
@@ -17,6 +20,7 @@ function App() {
 <HoursAddress/>
 <HappyHour />
 <BarMenu/>
+<Footer/>
     </div>
   );
 }
