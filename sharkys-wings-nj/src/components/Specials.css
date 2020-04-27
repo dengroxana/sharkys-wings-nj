@@ -1,9 +1,29 @@
-.dailySpecials{
+#specials{
   background-color: var(--dark-blue-grey);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.dailySpecials h2{
+#specials h2{
   color: var(--light-grey-blue);
   font-family: Oswald, sans-serif;
   font-size: 36px;
+}
+
+.dailySpecialsImgs{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+
+}
+
+.specialsImg {
+  width:322px;
+  height: 270px;
+  border-radius: 12px;
+  background-color: var(--white-70);
+  margin: 2%;
 }

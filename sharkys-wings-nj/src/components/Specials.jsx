@@ -12,7 +12,12 @@ function Specials() {
     <div id="specials">
       <h2>Specials</h2>
       <div className="dailySpecialsImgs">
-        <img scr={MondayImg} alt="Monday Specials" />
+        <img src={MondayImg} alt="Monday Specials" className='specialsImg' />
+        <img src={TuesdayImg} alt="Monday Specials" className='specialsImg' />
+        <img src={WednesdayImg} alt="Monday Specials" className='specialsImg' />
+        <img src={ThursdayImg} alt="Monday Specials" className='specialsImg' />
+        <img src={SaturdayImg} alt="Monday Specials" className='specialsImg' />
+        <img src={SundayImg} alt="Monday Specials" className='specialsImg' />
       </div>
     </div>
 
