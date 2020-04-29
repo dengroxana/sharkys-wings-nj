@@ -3,9 +3,13 @@ function Wings() {
 
   return (
     <div className="menuList">
-      <p>Wings. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .$5.99</p>
-      <p>Wings. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .$5.99</p>
-      <p>Wings. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .$5.99</p>
+ <ul className="leaders">
+ <li><span>10 piece </span><span>$11.99 </span></li>
+ <li><span>16 piece</span> <span>$15.99</span> </li>
+ <li><span>25 piece</span> <span>$24.99</span> </li>
+ <li><span>50 piece</span> <span>$48.99</span> </li>
+ <li><span>100 piece</span> <span>$85.99</span></li>
+ </ul>
     </div>
   )
 }
