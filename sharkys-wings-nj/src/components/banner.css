@@ -1,6 +1,6 @@
 .banner{
   background-image: url("../images/beer_hero.png");
-  height:100vh;
+  height:70vh;
   width:100%;
   background-position: 50% 5%;
   -webkit-background-size: cover;
@@ -19,17 +19,20 @@
 }
 .text-ban{
   font-size:48px;
-  margin-top:-5%;
+  margin-top:5%;
 }
 .text-banner{
   color:var(--terracota);
   display:flex;
   flex-direction: column;
-  margin-top:-25%;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   font-family: 'Karla', sans-serif;
   font-weight: bold;
+  margin-top:-25%;
   font-size: 64px;
+  background:transparent;
 }
 .ban-but{
  width:296px;
@@ -52,7 +55,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size:cover;
-    background-size: 375px 350px;
+    background-size: 385px 370px;
     background-position:top;
     height:45vh;
   }
