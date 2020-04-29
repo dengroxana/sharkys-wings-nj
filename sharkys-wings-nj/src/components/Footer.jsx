@@ -1,5 +1,6 @@
 import React from 'react';
-import { SocialIcon } from 'react-social-icons';
+import Facebook from "../images/facebook.svg"
+import Instagram from "../images/instagram.svg"
 import "./footer.css";
 
 
@@ -14,8 +15,12 @@ function Footer() {
           <p>Clifton, NJ 07011</p>
           <p>(973) 473-0713</p>
           <h3>
-            <SocialIcon url="https://www.facebook.com/sharkyswings44/" />
-            <SocialIcon url="https://www.instagram.com/sharkyswingsclifton/?hl=en" />
+            <a href="https://www.facebook.com/sharkyswings44/" >
+            <img src={Facebook} alt="Facebook"/>
+            </a>
+            <a href="https://www.instagram.com/sharkyswingsclifton/?hl=en" >
+            <img src={Instagram} alt="Instagram"/>
+            </a>
           </h3>
         </div>
         <div id="west">
@@ -24,8 +29,12 @@ function Footer() {
           <p>Boonton, NJ 07005 </p>
           <p>(973) 917-4466</p>
           <h3>
-            <SocialIcon url="https://www.facebook.com/SharkysWest/" />
-            <SocialIcon url="https://www.instagram.com/sharkyswestnj/" />
+            <a href="https://www.facebook.com/SharkysWest/" >
+            <img src={Facebook} alt="Facebook"/>
+            </a>
+            <a href="https://www.instagram.com/sharkyswestnj/" >
+            <img src={Instagram} alt="Instagram"/>
+            </a>
           </h3>
         </div>
         <div id="alpha">
@@ -34,8 +43,12 @@ function Footer() {
           <p> Alpha, NJ 08865</p>
           <p>(908) 777-3610</p>
           <h3>
-            <SocialIcon url="https://www.facebook.com/sharkysalpha/" />
-            <SocialIcon url="https://www.instagram.com/sharkyswingsalpha/" />
+            <a href="https://www.facebook.com/sharkysalpha/" >
+            <img src={Facebook} alt="Facebook"/>
+            </a>
+            <a href="https://www.instagram.com/sharkyswingsalpha/" >
+            <img src={Instagram} alt="Instagram"/>
+            </a>
           </h3>
         </div>
       </div>
