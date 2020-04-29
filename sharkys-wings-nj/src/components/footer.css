@@ -52,7 +52,7 @@ h3 {
     padding-top: 15px;
 }
 
-img {
+.locations img {
     display: grid;
     padding: 10px;
     height: 50px;
