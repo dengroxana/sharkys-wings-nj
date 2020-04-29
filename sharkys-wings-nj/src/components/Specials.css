@@ -17,7 +17,7 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 80%;
-
+  margin-left: 2%;
 }
 
 .specialsImg {
@@ -34,7 +34,7 @@
     height: 274px;
     flex-direction: column;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    /* -webkit-overflow-scrolling: touch; */
     scroll-snap-type: x mandatory;  
     scroll-behavior: smooth;
   }
