@@ -54,7 +54,7 @@ class NavBar extends Component {
         <div className="default">
           <a href="#hours"><h2>Hours</h2></a>
           <a href="#menu"><h2>Menu</h2></a>
-          <a href="#"><img src={logo} alt="logo" className="sharkyLogo" /></a>
+          <img src={logo} alt="logo" className="sharkyLogo" />
           <a href="#specials"><h2>Specials</h2></a>
           <a href="#footer"><h2>Location</h2></a>
         </div>
