@@ -16,8 +16,10 @@
 .dailySpecialsImgs{
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   max-width: 80%;
-  margin-left: 2%;
+  /* margin-left: 2%; */
 }
 
 .specialsImg {
