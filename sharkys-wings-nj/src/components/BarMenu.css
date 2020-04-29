@@ -20,9 +20,9 @@
     display:flex;
     justify-content: space-evenly;
     font-family: Oswald, sans-serif;
+
 }
 .buttonMenu button {
-    margin: 20px;
     margin-bottom: 0;
     width: 270px;
     height: 66px;

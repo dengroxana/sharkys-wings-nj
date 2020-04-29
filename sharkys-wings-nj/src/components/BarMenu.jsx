@@ -54,9 +54,9 @@ class BarMenu extends Component {
   render() {
     return (
       <>
-        <div class="barMenu">
+        <div id="menu" className="barMenu">
           <h2>Bar Menu</h2>
-          <div class="clickMenu">
+          <div className="clickMenu">
             <p>
               <a
                 href="http://www.sharkyswingsnj.com/west/printmenu.php"
@@ -67,7 +67,7 @@ class BarMenu extends Component {
               To See Our Full Dine-In Menu
             </p>
           </div>
-          <div class="buttonMenu">
+          <div className="buttonMenu">
             <button onClick={this.clickWings}>Wings</button>
 
             <button onClick={this.clickSharkytizers}>Sharky-Tizers</button>
@@ -77,7 +77,7 @@ class BarMenu extends Component {
             <button onClick={this.clickRawBar}>Raw Bar</button>
           </div>
         </div>
-        <div class="menuItems">
+        <div className="menuItems">
           {this.state.showWings ? <Wings /> : null}
           {this.state.showSharkytizers ? <SharkyTizers /> : null}
           {this.state.showFries ? <Fries /> : null}

@@ -1,0 +1,81 @@
+.banner{
+  background-image: url("../images/beer_hero.png");
+  height:70vh;
+  width:100%;
+  background-position: 50% 5%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  background-size: 1600px 720px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.imgOverlay{
+  background-color: rgba(0,0,0,0.7);
+  height:100%;
+  margin:0;
+  padding:0;
+}
+.text-ban{
+  font-size:48px;
+  margin-top:5%;
+}
+.text-banner{
+  color:var(--terracota);
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  margin-top:-25%;
+  font-size: 64px;
+  background:transparent;
+}
+.ban-but{
+ width:296px;
+ height:72px;
+ background-color: var(--terracota);
+ border-radius: 40px;
+ font-size:34px;
+ font-weight: bold;
+ border-color: transparent;
+ transition: background-color 0.3s ease;
+ margin-bottom: 15%;
+}
+.ban-but:hover{
+ background-color: var(--dark-blue-grey);
+ color: var(--terracota);
+}
+
+@media only screen and (max-device-width: 450px){
+  .banner{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: 385px 370px;
+    background-position:top;
+    height:45vh;
+  }
+  .text-banner{
+    text-align: center;
+  }
+  .ban-but{
+    width:150px;
+    height:65px;
+    font-size:16px;
+    margin-bottom:15%;
+  }
+  .text-ban{
+    font-size:30px;
+
+  }
+}
+@media only screen and (max-device-width: 1024px){
+  .text-banner{
+    margin-top:-70%;
+    text-align: center;
+  }
+}
