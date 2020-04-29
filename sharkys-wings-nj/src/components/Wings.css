@@ -1,0 +1,17 @@
+.wing-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+  padding-top:25px;
+}
+
+.col{
+  flex:1;
+  border-left:1px solid black;
+}
+.dots{
+  border-bottom: 1px dashed black;
+  flex:1;
+  margin: 0px 4px;
+}
