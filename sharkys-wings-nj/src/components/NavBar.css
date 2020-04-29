@@ -11,7 +11,7 @@
   align-items: center;
   background-color: var(--dark-blue-grey);
   width: 100%;
-  height: 12%;
+  height: 5%;
   text-align: center;
 }
 #nav h2 {
@@ -22,13 +22,20 @@ color: var(--light-grey-blue);
 #nav a {
     text-decoration: none;
 }
-
-.sharkyLogo {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    height:40%;
-    width:40%;
+.logo{
+  margin:0;
+  padding:0;
+  text-align: center;
 }
+.sharkyLogo {
+  margin-top:10px;
+  margin-bottom:10px;
+    height:20%;
+    width:20%;
+    margin-right:0;
+    text-align: center;
+}
+
 /* CSS FOR MOBILE HAMBURGER MENU FROM W3SCHOOLS, EDITED AND ADAPTED FOR REACT */
 
 @media only screen and (max-device-width: 415px){
