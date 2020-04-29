@@ -3,7 +3,10 @@
   height:100vh;
   width:100%;
   background-position: 50% 5%;
-  background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  background-size: 1600px 720px;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -46,8 +49,12 @@
 
 @media only screen and (max-device-width: 450px){
   .banner{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     -o-background-size:cover;
-    background-size: auto;
+    background-size: 375px 350px;
+    background-position:top;
+    height:45vh;
   }
   .text-banner{
     text-align: center;
@@ -60,7 +67,7 @@
   }
   .text-ban{
     font-size:30px;
-    margin-top:-90%;
+
   }
 }
 @media only screen and (max-device-width: 1024px){
