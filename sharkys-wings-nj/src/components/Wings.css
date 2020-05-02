@@ -9,6 +9,7 @@
 .col{
   flex:1;
   border-left:1px solid black;
+  
 }
 .dots{
   border-bottom: 1px dashed black;

@@ -60,7 +60,7 @@
 
 .menuList {
     display: flex;
-    /* text-align: center; */
+    text-align: center;
     align-items: center;
     align-content: center;
     justify-content: center;
