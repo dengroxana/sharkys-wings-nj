@@ -71,7 +71,7 @@ function Wings() {
           </div>
         </div>
       </div>
-      <p>
+      <p className="additions">
         Add fresh garlic to your favorite sauce for additional cost <br />
         <br /> Blue cheese, celery, carrots or extra sauce for additional $0.50
       </p>

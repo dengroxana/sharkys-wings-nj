@@ -17,6 +17,7 @@ font-family: 'Oswald', sans-serif; */
 * {
   font-family: 'Karla', sans-serif;
   scroll-behavior: smooth;
+  font-size: 18px;
   margin: 0;
   padding:0;
   width: 100%;
