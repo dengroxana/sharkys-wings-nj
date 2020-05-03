@@ -4,24 +4,24 @@ function HappyHourMenu() {
   return (
     <>
       <div id='hhMenuDiv'>
-        <div>
-          <p>Wings</p>
+        <div className="hhMenuMiniDiv">
+          <b><p>Wings</p></b>
           <p>$0.70 each</p>
         </div>
-        <div>
-          <p>Clams</p>
+        <div className="hhMenuMiniDiv">
+          <b><p>Clams</p></b>
           <p>$0.60 each</p>
         </div>
-        <div>
-          <p>Coors Light & Yuengling Pints</p>
+        <div className="hhMenuMiniDiv">
+          <b><p>Coors Light & Yuengling Pints</p></b>
           <p>$2.00 each</p>
         </div>
-        <div>
-          <p>Sam Adams, Stella & Cider Pints</p>
+        <div className="hhMenuMiniDiv">
+          <b><p>Sam Adams, Stella & Cider Pints</p></b>
           <p>$3.50 each</p>
         </div>
-        <div>
-          <p>select hots</p>
+        <div className="hhMenuMiniDiv">
+          <b><p>Select shots</p></b>
           <p>$3.00 each</p>
         </div>
       </div>
