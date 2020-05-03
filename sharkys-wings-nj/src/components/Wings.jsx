@@ -24,6 +24,57 @@ function Wings() {
         <div className="col">100 piece</div> <div className="dots"></div>{" "}
         <div className="col">$85.99</div>
       </div>
+      <div className="sauces">
+        <h2>Sauces</h2>
+        <div className="sauceList">
+          <div className="row">
+            <div className="column">
+              <ul>
+                <div className="first">
+                  <li>Mild</li>
+                  <li>Med</li>
+                  <li>Ex-Hot</li>
+                  <li>On-Fire</li>
+                  <li>Hell</li>
+                  <li>BBQ</li>
+                  <li>Teriyaki</li>
+                  <li>Oriental</li>
+                  <li>Honey Mustard</li>
+                  <li>Ceasar</li>
+                </div>
+                <div className="second">
+                  <li>Maryland</li>
+                  <li>Thai Chili</li>
+                  <li>Old Bay</li>
+                  <li>Blackened Lemon Pepper</li>
+                  <li>Salt & Vinegar</li>
+                  <li>Boom Boom</li>
+                  <li>Bourbon</li>
+                  <li>Honey BBQ</li>
+                  <li>Honey Chipolte</li>
+                  <li>Parmesean</li>
+                </div>
+                <div className="third">
+                  <li>Honey Garlic</li>
+                  <li>Raspberry</li>
+                  <li>Sriracha</li>
+                  <li>General Tso</li>
+                  <li>Smokehouse Maple</li>
+                  <li>Everything Bagel</li>
+                  <li>Chipolte Cinnamon Dry Rub</li>
+                  <li>Chili Lime</li>
+                  <li>Peppercorn</li>
+                  <li>Mango Habenero</li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>
+        Add fresh garlic to your favorite sauce for additional cost <br />
+        <br /> Blue cheese, celery, carrots or extra sauce for additional $0.50
+      </p>
     </div>
   );
 }
