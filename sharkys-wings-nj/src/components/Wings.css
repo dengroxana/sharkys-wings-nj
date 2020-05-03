@@ -58,4 +58,7 @@ font-size: 18px;
   .additions {
     display: none;
   }
+  .dots {
+    background-size: 8px;
+  }
 }
