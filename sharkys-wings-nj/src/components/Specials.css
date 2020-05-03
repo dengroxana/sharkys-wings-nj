@@ -16,9 +16,9 @@
 .dailySpecialsImgs{
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   max-width: 80%;
-  margin-left: 2%;
-
 }
 
 .specialsImg {
@@ -35,7 +35,7 @@
     height: 274px;
     flex-direction: column;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    /* -webkit-overflow-scrolling: touch; */
     scroll-snap-type: x mandatory;  
     scroll-behavior: smooth;
   }
@@ -46,6 +46,22 @@
     height: 95%;
     scroll-snap-align: start;
   }
+}
+@media only screen and (max-width: 800px) and (min-width: 416px){
+  .dailySpecialsImgs{
+    width: 750px;
+    height: 274px;
+    flex-direction: column;
+    overflow-x: auto;
+    /* -webkit-overflow-scrolling: touch; */
+    scroll-snap-type: x mandatory;  
+    scroll-behavior: smooth;
+  }
 
-
+  .specialsImg {
+    width: 290px;
+    flex-shrink: 0;
+    height: 95%;
+    scroll-snap-align: start;
+  }
 }

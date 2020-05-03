@@ -4,6 +4,7 @@
     padding-left: 15px;
     padding-right: 15px;
     border-top: 1px solid black;
+    width:100%;
 }
 
 h1 {
@@ -64,32 +65,32 @@ h3 {
 
 @media only screen and (max-width: 568px) {
     #footer{
-        width: 50%;
+        width: 100%;
 
     }
 
-    h1 {
+    .footer h1 {
         font-size: 24px;
     }
 
-    h2 {
+    .locations h2 {
         font-size: 20px;
     }
 
-    p {
+    .locations p {
         font-size: 12px;
         padding: 2px;
 
     }
 
-    h3 {
+    .locatiosn h3 {
         grid-gap: 10px;
         padding-top: 10px;
     }
 
-    img {
-        height: 25px;
-        width: 25px;
+    .locations img {
+        height: 30px;
+        width: 30px;
     }
 }
 

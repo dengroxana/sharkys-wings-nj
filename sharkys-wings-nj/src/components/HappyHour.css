@@ -30,11 +30,20 @@
 /* ===== HAPPY HOUR MENU ====== */
 #hhMenuDiv {
   margin: 0;
-  text-align: center;
+  text-align: center;  
+
 }
 
 #hhMenuDiv p {
   margin: 0;
   font-family: Karla, sans-serif;
   font-size: 18px;
+}
+#hhMenuDiv b {
+  font-weight: bolder;
+  text-decoration: underline;
+  margin: 0;
+  font-family: Karla, sans-serif;
+  font-size: 18px;
+  padding-bottom: 0;
 }

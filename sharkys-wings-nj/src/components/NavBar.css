@@ -17,6 +17,7 @@
 #nav h2 {
 font-family: 'Oswald', sans-serif;
 color: var(--light-grey-blue);
+font-size: 1.5em;
 }
 
 #nav a {
