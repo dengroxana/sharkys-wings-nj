@@ -47,4 +47,15 @@ ul {
   column-count: 3;
   justify-content: space-evenly;
 }
+.additions {
+font-size: 18px;
+}
 
+@media only screen and (max-width: 415px) {
+  .sauces {
+    display: none;
+  }
+  .additions {
+    display: none;
+  }
+}
