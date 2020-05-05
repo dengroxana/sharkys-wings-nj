@@ -1,18 +1,18 @@
 .banner {
-  background-image: url("../images/beer_hero.png");
+  background-image: url("../images/NEW_beer_hero.png");
   height: 70vh;
   width: 100%;
-  background-position: 50% 5%;
+  background-position: 40% 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: 1600px 1200px;
+  /* background-size: 1600px 1200px; */
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .imgOverlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
   margin: 0;
   padding: 0;
@@ -22,7 +22,7 @@
   margin-top: 5%;
 }
 .text-banner {
-  color: var(--terracota);
+  color: white;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -45,7 +45,7 @@
   transition: background-color 0.3s ease;
   margin-bottom: 15%;
   text-decoration: none;
-  color: black;
+  color: white;
   padding-top: 10px;
 }
 .ban-but:hover {
