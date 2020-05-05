@@ -13,7 +13,11 @@ return (
       <div className="imgOverlay"></div>
       <div className="text-banner">
         <p className="text-ban">BEERS, BUDS, BITES</p>
-        <button className="ban-but">Order Now</button>
+        <a className="ban-but"
+                href="https://www.grubhub.com/restaurant/sharkys-wings--raw-bar-108-boonton-avenue-boonton/1334154"
+                target="_blank"
+              >
+                Order Now </a>
     </div>
     </div>
   </div>

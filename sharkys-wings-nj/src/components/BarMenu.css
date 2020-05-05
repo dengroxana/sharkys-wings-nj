@@ -6,14 +6,16 @@
   margin-top: 1%;
 }
 
-.clickMenu {
+.clickMenu p{
   text-align: center;
+ font-size: 18px;
 }
 
 .clickMenu a {
   font-family: Karla, sans-serif;
   font-style: italic;
   color: black;
+  padding-right: 10px;
 }
 
 .buttonMenu {

@@ -24,6 +24,7 @@ function HappyHourMenu() {
           <b><p>Select shots</p></b>
           <p>$3.00 each</p>
         </div>
+        <p>&frac12; off selected appetizers <br/>* <i>Dine-in only</i></p>
       </div>
     </>
   )
