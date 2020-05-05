@@ -66,13 +66,13 @@ class BarMenu extends Component {
             </p>
           </div>
           <div className="buttonMenu">
-            <button onClick={this.clickWings}>Wings</button>
+            <button className={this.state.showWings ? "active" : "nActive"} onClick={this.clickWings}>Wings</button>
 
-            <button onClick={this.clickSharkytizers}>Sharky-Tizers</button>
+            <button className={this.state.showSharkytizers ? "active" : "nActive"} onClick={this.clickSharkytizers}>Sharky-Tizers</button>
 
-            <button onClick={this.clickFries}>Fries</button>
+            <button className={this.state.showFries ? "active" : "nActive"}  onClick={this.clickFries}>Fries</button>
 
-            <button onClick={this.clickRawBar}>Raw Bar</button>
+            <button className={this.state.showRawBar ? "active" : "nActive"}  onClick={this.clickRawBar}>Raw Bar</button>
           </div>
         </div>
         <div className="menuItems">

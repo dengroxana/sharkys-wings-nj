@@ -24,16 +24,27 @@
     font-family: Oswald, sans-serif;
 
 }
-.buttonMenu button {
+.nActive{
     margin-bottom: 0;
-    width: 270px;
-    height: 66px;
     background-color:transparent;
     padding: 5px 10px 5px 10px;
     transition: background-color 0.2s ease;
     border: none;
     font-style: bold;
     font-size: 24px;
+}
+.buttonMenu button {
+    margin-bottom: 0;
+    width: 270px;
+    height: 66px;
+    border: none;
+    font-style: bold;
+    font-size: 24px;
+}
+
+.active{
+  background-color: var(--terracota);
+  color: white;
 }
 
 .buttonMenu button:hover {
