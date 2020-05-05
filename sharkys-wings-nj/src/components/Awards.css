@@ -4,7 +4,8 @@
     align-items: center;
     text-align: center;
     background-color: var(--pale-grey);
-  
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .awards h2 {
   font-size: 24px;

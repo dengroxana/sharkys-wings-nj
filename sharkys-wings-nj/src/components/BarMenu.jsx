@@ -62,9 +62,7 @@ class BarMenu extends Component {
                 href="http://www.sharkyswingsnj.com/west/printmenu.php"
                 target="_blank"
               >
-                Click Here{" "}
-              </a>{" "}
-              To See Our Full Dine-In Menu
+                Click Here </a>To See Our Full Dine-In Menu
             </p>
           </div>
           <div className="buttonMenu">

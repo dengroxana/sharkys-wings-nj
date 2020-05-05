@@ -40,8 +40,8 @@ class NavBar extends Component {
           {/* <a href="#"><img src={logo} alt="logo" className="sharkyLogo" /></a>   */}
           <div id="links" style={{display: this.state.display}} >
             <a href="#hours"><h2>Hours</h2></a>
-            <a href="#menu"><h2>Menu</h2></a>
             <a href="#specials"><h2>Specials</h2></a>
+            <a href="#menu"><h2>Menu</h2></a>
             <a href="#footer"><h2>Location</h2></a>
           </div>
           <div className={this.state.name} onClick={this.Burger}>
@@ -53,9 +53,9 @@ class NavBar extends Component {
         </div>
         <div className="default">
           <a href="#hours"><h2>HOURS</h2></a>
-          <a href="#menu"><h2>MENU</h2></a>
-          <img src={logo} alt="logo" className="sharkyLogo" />
           <a href="#specials"><h2>SPECIALS</h2></a>
+          <img src={logo} alt="logo" className="sharkyLogo" />
+          <a href="#menu"><h2>MENU</h2></a>
           <a href="#footer"><h2>LOCATION</h2></a>
         </div>
 

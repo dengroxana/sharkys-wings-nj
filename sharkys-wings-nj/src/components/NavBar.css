@@ -23,6 +23,12 @@ font-size: 1.5em;
 #nav a {
     text-decoration: none;
 }
+
+#nav h2:hover {
+color: white;
+
+}
+
 .logo{
   margin:0;
   padding:0;

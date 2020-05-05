@@ -40,7 +40,7 @@ function Wings() {
                   <li>Teriyaki</li>
                   <li>Oriental</li>
                   <li>Honey Mustard</li>
-                  <li>Ceasar</li>
+                  <li>Caesar</li>
                 </div>
                 <div className="second">
                   <li>Maryland</li>
@@ -51,8 +51,8 @@ function Wings() {
                   <li>Boom Boom</li>
                   <li>Bourbon</li>
                   <li>Honey BBQ</li>
-                  <li>Honey Chipolte</li>
-                  <li>Parmesean</li>
+                  <li>Honey Chipotle</li>
+                  <li>Parmesan</li>
                 </div>
                 <div className="third">
                   <li>Honey Garlic</li>
@@ -61,10 +61,10 @@ function Wings() {
                   <li>General Tso</li>
                   <li>Smokehouse Maple</li>
                   <li>Everything Bagel</li>
-                  <li>Chipolte Cinnamon Dry Rub</li>
+                  <li>Chipotle Cinnamon Dry Rub</li>
                   <li>Chili Lime</li>
                   <li>Peppercorn</li>
-                  <li>Mango Habenero</li>
+                  <li>Mango Habanero</li>
                 </div>
               </ul>
             </div>

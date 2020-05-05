@@ -7,12 +7,15 @@
     width:100%;
 }
 
-h1 {
+.footer h1 {
     display: flex;
     justify-content: center;
+    font-family: 'Oswald',sans-serif;
+    font-size: 36px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    padding-bottom: 40px;
 
 }
 
@@ -27,7 +30,8 @@ h1 {
 
 h2 {
     text-align: center;
-    font-family: Oswald;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
 }
 
 p {
@@ -70,11 +74,12 @@ h3 {
     }
 
     .footer h1 {
-        font-size: 24px;
+        font-size: 20px;
+        padding-bottom: 20px;
     }
 
     .locations h2 {
-        font-size: 20px;
+        font-size: 13px;
     }
 
     .locations p {
@@ -83,7 +88,7 @@ h3 {
 
     }
 
-    .locatiosn h3 {
+    .locations h3 {
         grid-gap: 10px;
         padding-top: 10px;
     }

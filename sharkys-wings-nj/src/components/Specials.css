@@ -5,6 +5,8 @@
   align-content: center;
   align-items: center;
   justify-content: space-evenly;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 #specials h2{
